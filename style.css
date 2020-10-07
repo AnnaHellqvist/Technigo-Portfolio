@@ -156,7 +156,7 @@ h2 {
 .icon-link-2 {
     width: 60px;
     height: 60px;
-    border: 3px solid #FF0000;
+    border: 3px solid #FA382F;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -185,8 +185,31 @@ h2 {
     align-items: center;
 }
 
+.red {
+    color: #FA382F;
+}
+.skills-section {
+    flex-direction: column;
+    align-items: center;
+}
+.skills-outer-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+}
 
+.skills-inner-wrapper {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
 
+.skills-inner-wrapper p {
+    margin: 5px;
+}
 /*** FOOTER ***/
 
 footer {
@@ -303,6 +326,14 @@ footer {
 
     .icon-text {
         font-size: 25px;
+    }
+
+    .skills-outer-wrapper {
+        font-size: 25px;
+    }
+
+    .skills-inner-wrapper {
+        width: 200px;
     }
 
 }
