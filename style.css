@@ -134,6 +134,11 @@ h2 {
     justify-content: center;
 }
 
+.red-text-style {
+    font-size: 21px;
+    color: #FA382F;
+}
+
 .tech {
     text-align: center;
 }
@@ -147,6 +152,40 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+
+.icon-link-2 {
+    width: 60px;
+    height: 60px;
+    border: 3px solid #FF0000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.image {
+    height: 40px;
+    width: 40px;
+}
+
+.icon-text {
+    font-size: 11px;
+    color: #FA382F;
+}
+
+.icon-outer-wrapper {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-inner-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 /*** FOOTER ***/
 
@@ -248,5 +287,22 @@ footer {
         width: 150px;
     }
 
+    .icon-link-2 {
+        width: 90px;
+        height: 90px;
+    }
+
+    .image {
+        height: 60px;
+        width: 60px;
+    }
+
+    .icon-outer-wrapper {
+        width: 300px;
+    }
+
+    .icon-text {
+        font-size: 25px;
+    }
 
 }
