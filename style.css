@@ -1,0 +1,188 @@
+/*** GENERAL STYLING ***/
+body {
+    margin: 0px;        
+}
+
+/*** HEADER ***/
+header {
+    height: 500px;
+    background-image: url(./assets/kien-do-NjT4O7WYmwk-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 36px 0px 36px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header-info-wrapper {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-images {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 40px;
+    color: #fff;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+}
+
+p {
+    font-size: 13px;
+    color: #fff;
+    letter-spacing: 0.52px;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.header-p-tags {
+    display: flex;
+}
+.icon-wrapper {
+    align-self: flex-end;
+    display: flex;
+    margin-bottom: 10px;   
+}
+
+.icon-link {
+    width: 45px;
+    height: 45px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.header-text {
+    
+}
+
+.profile-pic {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: -15px;
+}
+
+/*** MAIN SECTION ***/
+.decoration {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 70px;
+    height: 6px;
+    background: red;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: red;
+    margin-left: -3px;
+
+}
+
+/*** FOOTER ***/
+
+footer {
+    height: 270px;
+    background: #072BCE;
+}
+/*** MEDIA QUERIES ***/
+
+@media (min-width: 667px) {
+
+    header, .header-info-wrapper {
+        height: 600px;
+    }
+
+
+    .profile-pic {
+        width: 230px;
+        height: 230px;
+    }
+
+    .icon-link {
+        width: 65px;
+        height: 65px;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 62px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+
+}
+
+@media (min-width: 1024px) {
+
+    .header-info-wrapper {
+        width: 80%;
+    }
+
+    .profile-pic {
+        width: 300px;
+        height: 300px;
+        margin-bottom: -15px;
+    }
+
+    h1 {
+        font-size: 80px;
+        width: 400px;
+    }
+
+    h2 {
+        font-size: 50px;
+        width: 400px;
+    }
+
+    p {
+        font-size: 28px;
+    }
+
+}
+/*
+font-family: 'Montserrat', sans-serif;
+      
+    */
