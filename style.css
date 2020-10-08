@@ -139,6 +139,8 @@ h2 {
     color: #FA382F;
 }
 
+
+
 .tech {
     text-align: center;
 }
@@ -210,6 +212,35 @@ h2 {
 .skills-inner-wrapper p {
     margin: 5px;
 }
+
+.large-thoughts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thoughts-card {
+    text-decoration: none;
+    color: black;
+}
+
+.thoughts-image {
+    width: 100%;
+
+}
+
+.list-thoughts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.red-style-headline {
+    font-size: 25px;
+    color: #FA382F;
+}
+
+
 /*** FOOTER ***/
 
 footer {
@@ -274,8 +305,8 @@ footer {
 
 @media (min-width: 1024px) {
 
-    .header-info-wrapper, .introduction {
-        width: 1000px;
+    .header-info-wrapper, .introduction, .large-thoughts, .list-thoughts {
+        max-width: 1000px;
     }
 
     .profile-pic {
@@ -334,6 +365,20 @@ footer {
 
     .skills-inner-wrapper {
         width: 200px;
+    }
+
+    .large-thoughts {
+        flex-direction: row;
+    }
+
+    .thoughts-card {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .red-style-headline {
+        font-size: 38px;
+        color: #FA382F;
     }
 
 }
