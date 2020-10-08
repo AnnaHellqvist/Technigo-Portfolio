@@ -190,6 +190,8 @@ h2 {
 .red {
     color: #FA382F;
 }
+
+
 .skills-section {
     flex-direction: column;
     align-items: center;
@@ -222,6 +224,7 @@ h2 {
 .thoughts-card {
     text-decoration: none;
     color: black;
+    margin-bottom: 25px;
 }
 
 .thoughts-image {
@@ -240,7 +243,23 @@ h2 {
     color: #FA382F;
 }
 
+.card-tech-info {
+   
+}
 
+.tech-style {
+    background: pink;
+    color: grey;
+    border-radius: 2px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.links-more-info {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 15px;
+}
 /*** FOOTER ***/
 
 footer {
