@@ -41,23 +41,23 @@ body {
 
 .red-text-style {
     font-size: 21px;
-    color: #FA382F;
+    color: #E02041;
 }
 
 .red {
-    color: #FA382F;
+    color:#E02041;
 }
 
 .red-style-headline {
     font-size: 25px;
-    color: #FA382F;
+    color: #E02041;
     align-self: center;
 }
 
 .red-box-style {
     font-size: 22px;
     padding: 5px;
-    background: #FA382F;
+    background: #E02041;
     color: white;
     display: flex;
     justify-content: center;
@@ -67,7 +67,7 @@ body {
 /************************ HEADER ************************************/
 header {
     height: 500px;
-    background-image: url(./assets/kien-do-NjT4O7WYmwk-unsplash.jpg);
+    background-image: url(./assets/modified_kien-do-NjT4O7WYmwk-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -161,7 +161,7 @@ h2 {
     display: inline-block;
     width: 70px;
     height: 3px;
-    background-color: #FA382F;
+    background-color: #E02041;
     padding: 0px;
     margin-bottom: 6px;
     border-radius: 2px;
@@ -172,7 +172,7 @@ h2 {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color:#FA382F;
+    background-color:#E02041;
     margin-left: -10px;
     margin-right: 12px;
     padding: 0px;
@@ -213,8 +213,8 @@ h2 {
 
 /*************************** ONLY FEATURED PROJECTS SECTION *****************************/
 .tech-style {
-    background: pink;
-    color: darkslategrey;
+    background: #f8d0d7;
+    color: #000;
     border-radius: 2px;
     font-size: 12px;
     margin-right: 5px;
@@ -262,7 +262,7 @@ h2 {
 .fore-more-icon-link {
     width: 60px;
     height: 60px;
-    border: 3px solid #FA382F;
+    border: 3px solid #E02041;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -277,7 +277,7 @@ h2 {
 
 .icon-text {
     font-size: 11px;
-    color: #FA382F;
+    color: #E02041;
 }
 
 .icon-outer-wrapper {
@@ -293,8 +293,8 @@ h2 {
 
 /**************** FOOTER ************************************************/
 footer {
-    height: 270px;
-    background: #072BCE;
+    height: 250px;
+    background: #E02041;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -431,10 +431,7 @@ footer {
         margin-top: 0;    
     }
 
-    
-
     .red-style-headline {
         font-size: 38px;
-        color: #FA382F;
     }
 }
