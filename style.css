@@ -339,11 +339,11 @@ footer {
     }
 
     h2 {
-        font-size: 36px;
+        font-size: 32px;
     }
 
     .spacing {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .thoughts-card {
@@ -371,31 +371,31 @@ footer {
 
 @media (min-width: 1024px) {
 
+    .wrapper-styling, .header-info-wrapper {
+        width: 60%;
+    }
+
     .profile-pic {
-        width: 300px;
-        height: 300px;
+        width: 270px;
+        height: 270px;
         margin-bottom: -15px;
     }
 
     h1 {
-        font-size: 80px;
+        font-size: 72px;
         width: 400px;
     }
 
-    h2 {
-        font-size: 42px;
-    }
-
     .spacing {
-        font-size: 28px;
+        font-size: 20px;
     }
 
     .text-styling {
-        font-size: 30px;
+        font-size: 22px;
     }
 
     .red-box-style {
-        font-size: 48px;
+        font-size: 40px;
     }
 
     .tech-header {
