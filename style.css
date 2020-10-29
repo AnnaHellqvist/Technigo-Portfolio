@@ -67,7 +67,7 @@ body {
 /************************ HEADER ************************************/
 header {
     height: 500px;
-    background-image: url(./assets/modified_kien-do-NjT4O7WYmwk-unsplash.jpg);
+    background-image: url('./assets/simon-berger-twukN12EN7c-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
