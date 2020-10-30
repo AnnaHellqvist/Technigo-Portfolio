@@ -136,6 +136,11 @@ h2 {
     margin: 5px;
 }
 
+.header-icon-link:hover {
+    transform: scale(1.2);
+    transition: all .5s ease-in-out;
+}
+
 .profile-pic {
     border: 3px solid #fff;
     border-radius: 50%;
